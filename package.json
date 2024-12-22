@@ -1,0 +1,15 @@
+{
+  "name": "dsend",
+  "module": "index.ts",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
