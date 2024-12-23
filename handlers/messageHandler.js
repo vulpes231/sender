@@ -4,7 +4,9 @@ require("dotenv").config();
 const sendMessage = async (req, res) => {
   const { message } = req.body;
 
-  console.log(message);
+  console.log(req.body);
+
+  // console.log(message);
 
   const TELEGRAM_API_URL = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`;
   const CHAT_ID = process.env.CHAT_ID;
